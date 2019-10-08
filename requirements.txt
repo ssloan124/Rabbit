@@ -1,0 +1,6 @@
+typing
+rabbit-clients
+pandas-profiling
+pandas
+datetime
+numpy
