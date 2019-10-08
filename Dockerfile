@@ -14,6 +14,8 @@ RUN wget https://www.python.org/ftp/python/${PYTHON_VER}/Python-${PYTHON_VER}.tg
     make  && \
     make install 
 
+RUN apt-get install -y python3-pip
+
 RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/opt/python-${PYTHON_VER}/lib
 
 COPY . .
