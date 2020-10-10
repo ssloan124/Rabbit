@@ -14,9 +14,9 @@ This is a repo with multiple contributors.  See sections for contributions
 
 Currently running from Jupyter Notebook instance within Docker
 
-1. Clone repo ```MAKE SURE IT IS CLONED TO C: DRIVE, H is not available to share```
+1. Clone repo 
 
-2. ```cd``` into ```rabbitmq``` folder
+2. ```cd``` into ```rabbitmq``` folder; update mount path in docker-compose
 
 3. ```docker-compose up```
 
@@ -56,9 +56,7 @@ Results in ```<filename>_profile.html```
 
 ##### References
 
-* Aaron Burgess
-
-* Nick Thomas
+* https://pypi.org/project/rabbit-clients/
 
 * https://docs.docker.com/compose/compose-file/
 
