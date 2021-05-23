@@ -1,4 +1,4 @@
-# multi_tenant_data_catalog
+# Data Profile Test
 
 ### Summary
 
