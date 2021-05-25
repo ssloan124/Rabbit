@@ -1,0 +1,18 @@
+version: '3'
+services:
+  jupyter:
+    build: ./jupyter
+    ports:
+      - "8888:8888"
+    links:
+      - rabbit
+    volumes:
+      - "./jupyter/files:/home/jovyan/work"
+    environment:
+      - "RABBIT_URL=rabbit"
+    
+  rabbit:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
